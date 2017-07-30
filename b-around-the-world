@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Guessing Game</title>
+    </head>
+    <body onload="do_game()">
+        <script>          
+             function do_game(){        
+             var guesses=0;
+            var finised=false;
+            var target;              
+            target=Math.random()*100;
+            target=Math.floor(target)+1;
+                while(!finised){
+                    var guess_input=prompt("I'm thinking of a number"+"in the range of 1 and 100"+"\n \n"+"What is the number?");
+                guess_input=parseInt(guess_input);
+                    guesses++;
+                   finised=check_guess(guess_input,target,guesses);} }                           
+                                    
+           function check_guess(guess_input,target,guesses)
+                { if(isNaN(guess_input)){
+                    alert("Input was not a nmber!"+ "Try again!");
+                    return false;}
+                 
+                 if(guess_input<1 || guess_input>100){
+                     alert("Out of range"+"Try again!")
+                     return false;
+            }
+                 if(guess_input<target){
+                     alert("Too small!");
+                     return false;
+                 }
+                 
+                 if(guess_input>target){
+                     alert("Too large!");
+                     return false;
+                 }
+                 
+                 alert("You got it!"+"\n"+"The number was:"+target+"\n"+"It took you:"+guesses+"guesses"); 
+                 return true;
+                                         
+                }
+        </script>
+        Szia!
+    </body>
+</html>
