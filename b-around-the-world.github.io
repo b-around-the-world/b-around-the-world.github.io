@@ -38,6 +38,7 @@
             Bár külsején sok változtatás történt, még minig örzi a 2003-ban kiadott, második generáció jellegzetes, azóta védjegyévé vált formát.</p>
         
         <h1> Megújult külső és belső</h1>
+        
         <p class="new_int">
             Bár az autó messziről felismerhetően Prius, a jól ismert forma kiegészült néhány exluzív dizájn-elemmel. Ilyen például az ezüstszínű díszítések az autó elején, hátulján és a külső kilincseken. Ezen túl a külső elektromos csatlakozó diszkrét elhelyezése is figyelemre méltó megoldás. </p>
         <p>A Toyota számos új,innovatív technológiát felvonultat új modeljében, melyek egyaránt teszik gazdaságossá, illetve látványossá.
