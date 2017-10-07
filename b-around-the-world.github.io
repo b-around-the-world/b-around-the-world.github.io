@@ -1,87 +1,67 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Rondi Randi</title>
-        <meta name="author" content="Bubbles">
+        <title>Az év zöld autója</title>
         <style>
-            body{background:lightblue} fieldset{background:lightyellow; border:10px solid yellow; padding: 5px}
-            .title{border: 1px solid yellow;background:lightgreen; color:crimson;  }
+            body{background:lightblue;font-family: Century}          
+            span{font-size: 30px;color: green}            
+            #phv{margin-left: 20px;width="1500"}
+            #connect{margin-left: 750px;margin-top: 50px}
+            .intro{font-size: 25px; font-family:"Copper Black" ;text-align: center}
+            .engine{text-align: left; margin-right: 550px;margin-left:100px; margin-top: -280px}
+            .prev{text-align: justify;margin-left: 600px; margin-top: -100px; vertical-align=middle}
             
-            label:hover{color:aqua}
-            (legend fieldset label):hover{color:aquamarine}
+            
         </style>
+    </head>
+    <body>
+        <img id="phv" src="SzamAlap/prius_phv.jpg">
+       <p class="intro"> Tavaly a hidrogénhajtású Miravival, idén a Prius Plug-In Hibryddel nyerte el a Toyota az <span>Év Zöld Autója</span> címet. </p> <hr>
         
-        <body>
-            <h1><b>Please Enter Your Details <wbr>For Our Dating Website!</b></h1>
-            <form action="" method="post enctype="multipart/form_data"">
-            <fieldset>
-                <legend><fieldset class="title">Your Face</fieldset></legend>
-                
-                    <input type="file" name="User_Face"><br>
-                Image preview
-                
-            </fieldset><br>
+      <img id="connect" src="SzamAlap/connect.jpg" width="400">  
+        
+     <div class="engine">  
+    <h1> Mi a hibryd?</h1>   
+         
+        <p class="hibrd">
+           A hibridek olyan modern járművek, amelyekben két egymással összekapcsolt hajtás van: egy benzines és egy elektromotor. Ezen felül egy nagy energiatároló akkumulátorral is fel van szerelve a jármű. Ennek a három elem együttműködésének köszönhetően a hibridek sok energiát takarítanak meg.
+        </p>
+            <h2>Miben más a Plug-in?</h2>
+            <p>A Plug-in Hybridben is megtalálható egyszerre egy elektromos és egy benzines motor, melyekkel akár egyszerre is haladhat.Fékrendszerének energiavisszanyerő funkciója menet közben is tölti az akkumulátort.</p></div>
             
-            <fieldset>
-                <legend><fieldset class="title">Your General Details</fieldset></legend>
-                 <label for="name">Name</label>
-                 <input type="text" id="name" name="user_name" placeholder="Your name comes here"> <br>
-                
-                <label for="gender">Gender</label>
-                
-               <input type="radio" id="gender" name="gender" value="male" required> Male
-                <input type="radio" name="gender" value="female" required> Female <br>
-                
-                
-                <label for="age">Age</label>
-                
-                <input type="number" id="age" value="18" min="18" max="99" step="1" ><br>
-                
-                <label for="dob">Date of birth</label>
-                
-                 <input type="date" id="dob" step="1"><br>
-                
-                
-                <label for="color">Favorouite color</label>
-                
-                <input type="color" id="color"> <br>
-                
-                <label for="country">Which country</label>             
-                
-                <select name="country" >
-                    <option value="HUN">Hungary</option>
-                    <option value="US">USA</option>
-                    <option value="GB">England</option>
-                </select>
-                
-            </fieldset><br>
-            
-            <fieldset>
-                <legend class="hover">Your Indicators</legend>
-                <label for"height">Height</label>
-                
-                <span style="background:red;color:white">Short </span><input type="range" id="height" min="120" max="220" step="10"><span style="background:purple; color:white">Tall</span><br>
-                
-                <label for="salary">Salary</label>
-                
-               <span style="background:red;color:white">  Poor </span> <input type="range" id="salary>" min="0" max="100000" step="10"> <span style="background:purple; color:white">Rich</span>
-                
-                
-            </fieldset><br>
-            
-            <fieldset>
-                 <legend><b>Your Contact Information</b></legend>
-                
-                <label for="email">Email</label>
-                <input type="email" id="email"><br>
-                
-                <label for="mobile">Mobile</label>
-                <input type="tel" id="mobile"><br>
-                
-                <label for"address">Address</label>
-                <textarea rows="4" cols="60 name="address></textarea>
-            </fieldset><br>
-                
-                <input type="submit" value="SUBMIT">
-            </form>
-        </body>
+    
+        <h1>Korábbi modellek</h1>
+        <img src="SzamAlap/prev.png" width="550" id="prev_car">
+        <p class ="prev">
+            A Toyota elsőként kezdett hibryd hajtású autó sorozatgyártásába 1997-ben. Ekkor került piacra a Prius első generációja. Azóta több, mint 10 millió hibryd autó került eladásra.
+        A Plug-in a Prius negyedik generációjának tagja. 
+            Bár külsején sok változtatás történt, még minig örzi a 2003-ban kiadott, második generáció jellegzetes, azóta védjegyévé vált formát.</p>
+        
+        <h1> Megújult külső és belső</h1>
+        <p class="new_int">
+            Bár az autó messziről felismerhetően Prius, a jól ismert forma kiegészült néhány exluzív dizájn-elemmel. Ilyen például az ezüstszínű díszítések az autó elején, hátulján és a külső kilincseken. Ezen túl a külső elektromos csatlakozó diszkrét elhelyezése is figyelemre méltó megoldás. </p>
+        <p>A Toyota számos új,innovatív technológiát felvonultat új modeljében, melyek egyaránt teszik gazdaságossá, illetve látványossá.
+        Ilyen például  a napeleme tető, mely az autó akkumolátorát tölti, így növelve 5kilométerrel annak hatótávolságát. Ide sorolható továbbá a rendkívül hatékony hőszivattyús fűtés és a LED-mátrix technológiával kiegészített adaptív automatikus távfény-vezérlés is.
+            A szélvédőn elhelyezett Head Up Display is a biztonságot szolgálja, hisz közvetlenül a vezető látómezejében jeleníti meg a legfontosabb adatokat, például a jármű sebességét, navigációs információk,valamint a kormányon elhelyezett gombok itt is megjelenik,illetve közülük a megnyomni kívánt külön kiemelésre kerül.Ezzel vezetés míg biztonságosabb, hisz  a sofőr tekintetét nem kell elfordítani az útról. 
+Ezeken túl az intelligens automata parkolási rendszer, vezeték nélküli mobiltelefon-töltő talpazat, elektromatikusan sötétedő belső tükör, szürkület- és esőérzékelők csak néhány a kényelmi tartozékok hosszú listájából.
+        </p>
+        
+       
+       <h1> Hatótávolság</h1>
+        <p class="range">
+        
+        </p>
+        
+       <h1> Töltési idő</h1>
+        <p class="charge"> 
+            Mennekes csatlakozóval az akkumoltor teljes feltöltése  2órát vesz igénybe. De annak se kell csüggednie, aki nem híve az ipari csatlakozóknak, mivel még hagyományos otthoni konnektorról is alig több, mint 3óra alatt feltölthető.
+        </p>
+        
+        <h1>Műszaki adatok</h1>
+        <table></table>
+        <p class="spec"></p>
+        
+        
+        
+    </body>
+</html>
