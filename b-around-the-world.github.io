@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rondi Randi</title>
+        <meta name="author" content="Bubbles">
+        <style>
+            body{background:lightblue} fieldset{background:lightyellow; border:10px solid yellow; padding: 5px}
+            .title{border: 1px solid yellow;background:lightgreen; color:crimson;  }
+            
+            label:hover{color:aqua}
+            (legend fieldset label):hover{color:aquamarine}
+        </style>
+        
+        <body>
+            <h1><b>Please Enter Your Details <wbr>For Our Dating Website!</b></h1>
+            <form action="" method="post enctype="multipart/form_data"">
+            <fieldset>
+                <legend><fieldset class="title">Your Face</fieldset></legend>
+                
+                    <input type="file" name="User_Face"><br>
+                Image preview
+                
+            </fieldset><br>
+            
+            <fieldset>
+                <legend><fieldset class="title">Your General Details</fieldset></legend>
+                 <label for="name">Name</label>
+                 <input type="text" id="name" name="user_name" placeholder="Your name comes here"> <br>
+                
+                <label for="gender">Gender</label>
+                
+               <input type="radio" id="gender" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="female" required> Female <br>
+                
+                
+                <label for="age">Age</label>
+                
+                <input type="number" id="age" value="18" min="18" max="99" step="1" ><br>
+                
+                <label for="dob">Date of birth</label>
+                
+                 <input type="date" id="dob" step="1"><br>
+                
+                
+                <label for="color">Favorouite color</label>
+                
+                <input type="color" id="color"> <br>
+                
+                <label for="country">Which country</label>             
+                
+                <select name="country" >
+                    <option value="HUN">Hungary</option>
+                    <option value="US">USA</option>
+                    <option value="GB">England</option>
+                </select>
+                
+            </fieldset><br>
+            
+            <fieldset>
+                <legend class="hover">Your Indicators</legend>
+                <label for"height">Height</label>
+                
+                <span style="background:red;color:white">Short </span><input type="range" id="height" min="120" max="220" step="10"><span style="background:purple; color:white">Tall</span><br>
+                
+                <label for="salary">Salary</label>
+                
+               <span style="background:red;color:white">  Poor </span> <input type="range" id="salary>" min="0" max="100000" step="10"> <span style="background:purple; color:white">Rich</span>
+                
+                
+            </fieldset><br>
+            
+            <fieldset>
+                 <legend><b>Your Contact Information</b></legend>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email"><br>
+                
+                <label for="mobile">Mobile</label>
+                <input type="tel" id="mobile"><br>
+                
+                <label for"address">Address</label>
+                <textarea rows="4" cols="60 name="address></textarea>
+            </fieldset><br>
+                
+                <input type="submit" value="SUBMIT">
+            </form>
+        </body>
