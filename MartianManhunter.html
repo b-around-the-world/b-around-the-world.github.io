@@ -6,7 +6,7 @@
         <title>Martian Manhunter oldala</title>
         
         <style>
- *
+*
 {
     box-sizing: border-box;
 }
@@ -102,6 +102,7 @@ body
     }
    
 }
+
 footer
 {
   
@@ -160,11 +161,18 @@ th, td {
 
 .bottom
 {
-    display: grid;
+   column-count: 2;
+    column-gap: 10px;
+    column-rule-style: ridge;
    
-   
-    grid-template-columns: auto auto;
     
+}
+.bottom>div>img
+{
+    display: block;
+    align-items: center;
+    border-radius: 50px;
+    overflow: auto;
 }
 
 .content>div>h2
@@ -178,31 +186,44 @@ th, td {
     padding: 10px;
 }
 
+
+.content>div>img
+{
+    display: block;
+    align-items: center;
+    border-radius: 50px;
+}
+
 .content
 {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+      
     
 }
 
 .marsjaro
 {
     image-orientation: center;
+    border-bottom: 3px solid black;
 }
 
 .zorg
 {
  
-    width: 40%;
+    width: 50%;
+    padding-right: 10px;
+    
+    
     
 }
 
 .meteor
 {
- width: 40%;
+ width: 50%;
+    column-span: 1;
     
 }
-
 
         </style>
         
