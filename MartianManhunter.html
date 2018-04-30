@@ -2,6 +2,7 @@
 <html lang="hu">
     <head>
         <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Martian Manhunter oldala</title>
         
         <style>
@@ -68,11 +69,11 @@ header
 
 body
 {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1000px){
    ul.nav li
     {
         float: none;
@@ -83,6 +84,13 @@ body
         display: block;
         
     }
+    
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+    }
+   
 }
 
 footer
@@ -141,10 +149,12 @@ th, td {
 }
 
 
-.content
+.bottom
 {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+   
+   
+    grid-template-columns: auto auto;
     
 }
 
@@ -159,25 +169,30 @@ th, td {
     padding: 10px;
 }
 
+.content
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
 .marsjaro
 {
-    width: 325px;
-    margin-right: 100px;
-    
+    image-orientation: center;
 }
 
 .zorg
 {
-    width: 325px;
-   margin-right: 100px;
+ 
+    width: 40%;
+    
 }
 
 .meteor
 {
-    width: 325px;
-    margin-right: 0px;
+ width: 40%;
+    
 }
-
 
 
         </style>
