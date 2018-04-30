@@ -61,11 +61,11 @@ header
 
 body
 {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1000px){
    ul.nav li
     {
         float: none;
@@ -76,6 +76,13 @@ body
         display: block;
         
     }
+    
+    .content
+    {
+        display: flex;
+        flex-direction: column;
+    }
+   
 }
 
 footer
@@ -132,3 +139,50 @@ th, td {
     
 
 }
+
+
+.bottom
+{
+    display: grid;
+   
+   
+    grid-template-columns: auto auto;
+    
+}
+
+.content>div>h2
+{
+    text-align: center;
+}
+
+.content>div>p
+{
+    text-align: justify;
+    padding: 10px;
+}
+
+.content
+{
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.marsjaro
+{
+    image-orientation: center;
+}
+
+.zorg
+{
+ 
+    width: 40%;
+    
+}
+
+.meteor
+{
+ width: 40%;
+    
+}
+
