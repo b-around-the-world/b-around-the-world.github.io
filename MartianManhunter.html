@@ -5,271 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Martian Manhunter oldala</title>
         
-        <style>
-*
-{
-    box-sizing: border-box;
-    font-family: "Courier New", Courier, monospace;
-}
-
-.main_header
-{  
-   
-    background-repeat: no-repeat;
-    background-size:cover; 
-    height: 290px;    
-   background-image: url(header_1.jpg);
-}
-
-.advanture_header
-{
-    
-    background-repeat: no-repeat;
-    background-size:cover; 
-    height: 290px;    
-   background-image: url(header_4.jpg);
-}
-.fav_header
-{
-    
-    background-repeat: no-repeat;
-    background-size:cover; 
-    height: 290px;    
-   background-image: url(header_adv.jpg);
-}
-
-.contact_header
-{
-    
-    background-repeat: no-repeat;
-    background-size:cover; 
-    height: 290px;    
-   background-image: url(header_0.jpg);
-}
-
-.nav  
-{
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    
-}
-
-.nav a 
-{
-    display: block;
-    color: white;
-    text-align:center;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.nav li 
-{
-    float:left;    
-    
-}
-.nav li:hover/*:not(.active)*/
-{background-color: #299;}
-
-.nav li.active 
-{background-color: #299;}
-
-
-
-
-footer
-{  
-    display: grid;
-    background: grey;
-}
-
-.social
-{
-   
-    display: block;
-    align-self: center;
-    grid-area: middle;
-}
-
-.social>a>img
-{     
-    margin: 20px;
-    height: 40px;   
-}
-
-.bottom
-{
-   column-count: 2;
-    column-gap: 10px;
-    column-rule-style: ridge;
-   
-}
-
-.bottom>div>img
-{
-    display: block;
-    align-items: center;
-    border-radius: 50px;
-    overflow: auto;
-}
-
-.content>div>h2
-{
-    text-align: center;
-}
-
-.content>div>p
-{
-    text-align: justify;
-    padding: 10px;
-}
-
-
-.content>div>img
-{
-    display: block;
-    align-items: center;
-    border-radius: 50px;
-}
-
-.content
-{
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 20px;
-          
-}
-
-.marsjaro
-{
-    
-    border-bottom: 3px solid black;
-}
-
-.marsjaro>p
-{
-    width: 80%;
-    margin-left: 100px;
-   
-}
-.marsjaro>img
-{
-   margin-left: 320px;
-}
-
-.zorg
-{
- 
-    width: 100%;
-   padding-right: 15px;
-    text-align: justify;
-    
-}
-
-.meteor
-{
-    width: 100%;
-    padding-left: 50px;
-    padding-top: 50px;
-    text-align: justify;
-    
-}
-
-
-table,td,th,tr
-{
-    border: 5px solid black;
-    padding: 15px;
-    text-align: center;
-    vertical-align: middle; 
-    border-collapse: collapse;
-     
-   
-}
-
-tr
-{background-color: darkgrey;}
-
-tr:nth-child(even)
-{background-color: white;}
-
-table
-{
-    width: 90%;
-    margin: 20px;
-}
-
-
-.content>div
-{
-    border-bottom: 3px solid black;
-    padding-top: 15px;
-}
-
-
-
-
-
-@media only screen and (max-width: 850px){
-  
- 
-    
-    ul.nav li
-    {
-        float: none;
-    }
-    
-    .social>a>img
-    {
-        display: block;
-        
-    }
-    
-    .content>div
-    {
-        display: inline-flex;
-        flex-direction: column;
-        text-align: justify;
-        padding: 10px;
-         align-content: flex-start;
-        
-        
-    }
-    
-    
-    
-       .bottom>div
-    {
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        width: 100%;
-        vertical-align: middle;
-        position:relative;
-       align-content: flex-start;
-        padding: 10px;
-        object-fit: fill;
-    
-    }
-    
-.meteor
-    {
-        border-top: 3px solid black;
-       
-    }
-    
-   
-}
-        </style>
+        <link href="formazas.css" rel="stylesheet" type="text/css">
         
       
 
     </head>
     <body >
+        
         <header class="main_header">
         </header>
            
@@ -289,15 +31,16 @@ table
 <div class="content">
 <div class="marsjaro">
 <h2>Marsjáró</h2>
-<p><img src="curiosity.jpg" height="200px">A Curiosity 2011 novemberében indult a Földről és 2012. augusztus 6-án landolt a vörös bolygón, annak is az egyenlítője közelében, nagyjából 5 fokos déli szélességnél. Azóta a Gale-kráterben dolgozik, 2014-ben pedig elkezdte megmászni az annak közepén magasodó hegy, az Aeolis Mons (a NASA közleményeinek szóhasználatával: Mount Sharp) oldalát. A küldetése fő célját már teljesítette: vizsgálatai nyomán bebizonyosodott, hogy a területen valamikor hosszabb időn, évmilliókon át állóvíz volt. Így elvileg egyes életformák számára kedvező környezet, víz és megfelelő ásványi anyagok voltak jelen. A hegy oldalán felfelé kapaszkodva most a különböző időszakoknak megfelelő rétegek vizsgálatával azt kutatja, hogyan alakult a környezet a Mars története folyamán. A rover ezidáig mintegy 16 km-t gurult a Mars felszínén, miközben hosszabb-rövidebb időkre megállt a vizsgálatai elvégzéséhez.</p>
+    <img src="curiosity.jpg" height="200px">
+<p>A Curiosity 2011 novemberében indult a Földről és 2012. augusztus 6-án landolt a vörös bolygón, annak is az egyenlítője közelében, nagyjából 5 fokos déli szélességnél. Azóta a Gale-kráterben dolgozik, 2014-ben pedig elkezdte megmászni az annak közepén magasodó hegy, az Aeolis Mons (a NASA közleményeinek szóhasználatával: Mount Sharp) oldalát. A küldetése fő célját már teljesítette: vizsgálatai nyomán bebizonyosodott, hogy a területen valamikor hosszabb időn, évmilliókon át állóvíz volt. Így elvileg egyes életformák számára kedvező környezet, víz és megfelelő ásványi anyagok voltak jelen. A hegy oldalán felfelé kapaszkodva most a különböző időszakoknak megfelelő rétegek vizsgálatával azt kutatja, hogyan alakult a környezet a Mars története folyamán. A rover ezidáig mintegy 16 km-t gurult a Mars felszínén, miközben hosszabb-rövidebb időkre megállt a vizsgálatai elvégzéséhez.</p>
 
 </div>
-
+<div class="bottom">
     <div class="zorg">
 <h2>Zorg72 az Intergalaktikus egyezségben</h2>
 
-
-<p><img src="planet.jpg" height="200px">A mai napon a Zorg72 aláírta az Intergalaktikus egyezményt, így válva annak 12-ik tagjává.  Zorg lakosai bizakodóak az így megnyíló új lehetőségekkel kapcsoltban. </p>
+<img src="planet.jpg" height="200px">
+<p>A mai napon a Zorg72 aláírta az Intergalaktikus egyezményt, így válva annak 12-ik tagjává.  Zorg lakosai bizakodóak az így megnyíló új lehetőségekkel kapcsoltban. </p>
 
 </div>
     
@@ -305,13 +48,19 @@ table
 
 
 <h2>Meteoreső várható </h2>
-<p><img src="meteoreso.jpg" height="200px">A Vulkán  és Krok bolygó között meteorraj elvonulása várható. Az Intergalaktikus Űrbiztonsági Bizottság narancssárga jelzést adott ki. Előreláthatólag az említett térség bolygóit nem közelítik meg veszélyes mértékben, de további értesítésig nem ajánlott hosszabb űrutazásra indulni.
+    <img src="meteoreso.jpg" height="200px">
+<p>A Vulkán  és Krok bolygó között meteorraj elvonulása várható. Az Intergalaktikus Űrbiztonsági Bizottság narancssárga jelzést adott ki. Előreláthatólag az említett térség bolygóit nem közelítik meg veszélyes mértékben, de további értesítésig nem ajánlott hosszabb űrutazásra indulni.
 </p>
     
     </div>
  
 </div>
+    
+    </div>
+        </div> 
     </body>
+    
+    
        <footer>
            <div class="social">
     <a class="facebook" href="https://www.facebook.com/"><img src="facebook.jpg" height="35px"></a>
@@ -321,5 +70,6 @@ table
    <a class="github" href="https://github.com/"><img src="github_negyet.png" height="35px"></a> 
         
       </div>  
+    
     </footer>
 </html>
