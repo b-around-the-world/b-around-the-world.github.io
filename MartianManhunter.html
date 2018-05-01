@@ -9,30 +9,42 @@
 *
 {
     box-sizing: border-box;
-}
-body>p
-{
-    margin-left: 50px;
-    margin-right: 50px;
+    font-family: "Courier New", Courier, monospace;
 }
 
-header
+.main_header
 {  
    
     background-repeat: no-repeat;
     background-size:cover; 
     height: 290px;    
-   
-   
-}
-.main_header
-{
-    background-image: url(header_1.jpg);
+   background-image: url(header_1.jpg);
 }
 
 .advanture_header
 {
-    background-image: url(header_4.jpg);
+    
+    background-repeat: no-repeat;
+    background-size:cover; 
+    height: 290px;    
+   background-image: url(header_4.jpg);
+}
+.fav_header
+{
+    
+    background-repeat: no-repeat;
+    background-size:cover; 
+    height: 290px;    
+   background-image: url(header_adv.jpg);
+}
+
+.contact_header
+{
+    
+    background-repeat: no-repeat;
+    background-size:cover; 
+    height: 290px;    
+   background-image: url(header_0.jpg);
 }
 
 .nav  
@@ -45,14 +57,8 @@ header
     
 }
 
-.nav li 
+.nav a 
 {
-    float:left;
-    
-    
-}
-
-.nav a {
     display: block;
     color: white;
     text-align:center;
@@ -61,51 +67,22 @@ header
     text-align: center;
 }
 
+.nav li 
+{
+    float:left;    
+    
+}
 .nav li:hover/*:not(.active)*/
 {background-color: #299;}
 
 .nav li.active 
 {background-color: #299;}
 
-body
-{
-    margin-left: 0px;
-    margin-right: 0px;
-}
 
-@media screen and (max-width: 1000px){
-   ul.nav li
-    {
-        float: none;
-    }
-    
-    .social>a>img
-    {
-        display: block;
-        
-    }
-    
-    .content>div
-    {
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        width: 100%;
-    }
-    
-       .bottom>div
-    {
-        display: flex;
-        flex-direction: column;
-        text-align: justify;
-        width: 100%;
-    }
-   
-}
+
 
 footer
-{
-  
+{  
     display: grid;
     background: grey;
 }
@@ -113,51 +90,16 @@ footer
 .social
 {
    
-display: block;
+    display: block;
     align-self: center;
- grid-area: middle;
-    
-    
-    
+    grid-area: middle;
 }
 
 .social>a>img
-{
-   
-    
+{     
     margin: 20px;
-    height: 40px;
-    
-    
-    
+    height: 40px;   
 }
-table,td,th,tr
-{
-    border: 5px,solid, balck;
-    padding: 15px;
-    text-align: center;
-    vertical-align: middle;
-    
-    
-     
-}
-tr{background-color: darkgrey;}
-tr:nth-child(even){background-color: white;}
-
-table
-{
-    
-    border-collapse: collapse;
-       width: 70%;
-    align-self: center;
-   
-}
-th, td {
-    border-bottom: 1px solid #ddd;
-    
-
-}
-
 
 .bottom
 {
@@ -165,8 +107,8 @@ th, td {
     column-gap: 10px;
     column-rule-style: ridge;
    
-    
 }
+
 .bottom>div>img
 {
     display: block;
@@ -198,33 +140,130 @@ th, td {
 {
     margin-left: 200px;
     margin-right: 200px;
-      
-    
+    padding: 20px;
+          
 }
 
 .marsjaro
 {
-    image-orientation: center;
+    
     border-bottom: 3px solid black;
+}
+
+.marsjaro>p
+{
+    width: 80%;
+    margin-left: 100px;
+   
+}
+.marsjaro>img
+{
+   margin-left: 320px;
 }
 
 .zorg
 {
  
-    width: 50%;
-    padding-right: 10px;
-    
-    
+    width: 100%;
+   padding-right: 15px;
+    text-align: justify;
     
 }
 
 .meteor
 {
- width: 50%;
-    column-span: 1;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 50px;
+    text-align: justify;
     
 }
 
+
+table,td,th,tr
+{
+    border: 5px solid black;
+    padding: 15px;
+    text-align: center;
+    vertical-align: middle; 
+    border-collapse: collapse;
+     
+   
+}
+
+tr
+{background-color: darkgrey;}
+
+tr:nth-child(even)
+{background-color: white;}
+
+table
+{
+    width: 90%;
+    margin: 20px;
+}
+
+
+.content>div
+{
+    border-bottom: 3px solid black;
+    padding-top: 15px;
+}
+
+
+
+
+
+@media only screen and (max-width: 850px){
+  
+ 
+    
+    ul.nav li
+    {
+        float: none;
+    }
+    
+    .social>a>img
+    {
+        display: block;
+        
+    }
+    
+    .content>div
+    {
+        display: inline-flex;
+        flex-direction: column;
+        text-align: justify;
+        padding: 10px;
+         align-content: flex-start;
+        
+        
+    }
+    
+    
+    
+       .bottom>div
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 100%;
+        vertical-align: middle;
+        position:relative;
+       align-content: flex-start;
+        padding: 10px;
+        object-fit: fill;
+    
+    }
+    
+.meteor
+    {
+        border-top: 3px solid black;
+       
+    }
+    
+   
+}
         </style>
         
       
