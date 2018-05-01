@@ -8,8 +8,8 @@
        
     </head>
     <body>
-          <div class="header">
-      HADER
+          <div class="contact_header">
+      
         </div>     
         
         <ul class="nav">
@@ -21,21 +21,35 @@
         </ul>
       <form>    
 <h1>Kapcsolat</h1>
+          <fieldset>
+              <legend>Személyes adatok</legend>
 <h2>Név</h2>
+          <input type="text" id="name" name ="name" required>
 <h2>Telefonszám</h2>
+           <input type="text" id="phone" name ="phone">
 <h2>Email cím</h2>
-<h2>Üzenet  jellege:</h2>
+           <input type="text" id="email" name ="email">
+              </fieldset>
+          
+          <fieldset>
+              <legend>Üzenet jellege</legend>
+<div class="radio">
 	<input type="radio" name="nature" value="suggestion">ajánlás  beküldése <br>
 	<input type="radio" name="nature" value="angry super villan"> dühödt szupergonosz ámokfutásának bejelentése <br>
-Ha szupergonosz pusztításáról tesz bejelentést, jelölje meg a pusztításra használt fegyvereket!
+    </div>
+              <div class="check">
+<legend>Ha szupergonosz pusztításáról tesz bejelentést, jelölje meg a pusztításra használt fegyvereket!</legend>
 	<input type="checkbox" name="weapon" value="hypnosis">Hipnózis	<br>			<input type="checkbox" name="weapon" value="electric device malfunction">Elektromos berendezések a lakók ellen fordítása<br>
 <input type="checkbox" name="weapon" value="laser">Gyilkos lézer	<br>			<input type="checkbox" name="weapon" value="explosion of the sun">Fenyegetőzés a Nap felrobbantásával<br>
 <input type="checkbox" name="weapon" value="wild animals">Állatok megbabonázása<br>
           <input type="checkbox" name="weapon" value="other">Egyéb<br>
+                  </div>
+              </fieldset>
 
-<h2>Üzenet</h2>
+          <fieldset>
+<legend>Üzenet</legend>
           <textarea rows="15" cols="50" name="message" placeholder="Írja be üzenetét!"></textarea>
-
+</fieldset>
 </form>
     </body>
     
